@@ -1,0 +1,6 @@
+usr/local/bin/kitehcoin-qt usr/bin
+share/pixmaps/kitehcoin32.xpm usr/share/pixmaps
+share/pixmaps/kitehcoin16.xpm usr/share/pixmaps
+share/pixmaps/kitehcoin128.png usr/share/pixmaps
+debian/kitehcoin-qt.desktop usr/share/applications
+debian/kitehcoin-qt.protocol usr/share/kde4/services/

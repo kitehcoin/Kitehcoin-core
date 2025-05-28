@@ -1,0 +1,33 @@
+# /etc/conf.d/kitehcoind: config file for /etc/init.d/kitehcoind
+
+# Config file location
+#KITEHCOIND_CONFIGFILE="/etc/kitehcoin/kitehcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $KITEHCOIND_USER)
+#KITEHCOIND_PIDDIR="/var/run/kitehcoind"
+
+# What filename to give the pidfile
+#KITEHCOIND_PIDFILE="${KITEHCOIND_PIDDIR}/kitehcoind.pid"
+
+# Where to write kitehcoind data (be mindful that the blockchain is large)
+#KITEHCOIND_DATADIR="/var/lib/kitehcoind"
+
+# User and group to own kitehcoind process
+#KITEHCOIND_USER="kitehcoin"
+#KITEHCOIND_GROUP="kitehcoin"
+
+# Path to kitehcoind executable
+#KITEHCOIND_BIN="/usr/bin/kitehcoind"
+
+# Nice value to run kitehcoind under
+#KITEHCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+KITEHCOIND_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for kitehcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+KITEHCOIND_SIGTERM_TIMEOUT=60

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Kitehcoin Core
+Comment=Connect to the Kitehcoin P2P Network
+Comment[de]=Verbinde mit dem Kitehcoin peer-to-peer Netzwerk
+Comment[fr]=Kitehcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Kitehcoin, eşten eşe kriptografik sanal para birimi
+Exec=kitehcoin-qt %u
+Terminal=false
+Type=Application
+Icon=kitehcoin128
+MimeType=x-scheme-handler/kitehcoin;
+Categories=Office;Finance;
