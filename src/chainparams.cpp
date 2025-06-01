@@ -135,14 +135,14 @@ public:
         // Blocks 42,000+ are AuxPoW
         // Some tests from Dogecoin expect non-auxpow blocks. This allows those tests to pass.
         auxpowConsensus = digishieldConsensus;
-        auxpowConsensus.nHeightEffective = 42000;
+        auxpowConsensus.nHeightEffective = 30000;
         auxpowConsensus.fAllowLegacyBlocks = false;
 
         // 10% of Block reward to operations wallet
         nDeveloperFee = 10;
 
         // This is the block height when the devfee starts working
-        nDeveloperFeeStart = 4;
+        nDeveloperFeeStart = 32000;
 
         // Developer wallet address
         strDeveloperFeeAddress = "KGZCFnahEEwNPaPmj8ivsLEjZdcbL2Eyqo";
