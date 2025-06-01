@@ -145,7 +145,7 @@ public:
         nDeveloperFeeStart = 32000;
 
         // Developer wallet address
-        strDeveloperFeeAddress = "KGZCFnahEEwNPaPmj8ivsLEjZdcbL2Eyqo";
+        strDeveloperFeeAddress = "K9Ad8NNz8r97tE6z7nT1NuXSsVuGGhQjxn";
         
         // Assemble the binary search tree of consensus parameters
         pConsensusRoot = &digishieldConsensus;
@@ -176,7 +176,7 @@ public:
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 45); // Addresses start with K
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 33); 
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1, 151);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1, 45);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0xfa)(0xda)(0xfe).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0xfa)(0xc4)(0x97).convert_to_container<std::vector<unsigned char> >();
 
