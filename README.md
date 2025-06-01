@@ -6,6 +6,7 @@
 <p align="center">
   A fun, fast, and infinitely mineable cryptocurrency powered by Scrypt.<br>
   <a href="https://kitehcoin.org">🌐 Website</a> • 
+  <a href="https://mining.kitehblocks.com/">⛏️ Pool</a> • 
   <a href="https://github.com/kitehcoin">📁 GitHub</a>
 </p>
 
