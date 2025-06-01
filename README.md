@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://kitehcoin.org/logo.png" alt="KitehCoin Logo" height="120"/>
+  <img src="https://kitehblocks.com/img/logo.png" alt="KitehCoin Logo" height="120"/>
 </p>
 
 <h1 align="center">KitehCoin (KITEH)</h1>
@@ -27,9 +27,9 @@
 | **Block Time**      | 1 Minute                 |
 | **RPC Port**        | `17162`                  |
 | **P2P Port**        | `15034`                  |
-| **Chain id**        | `151`                  |
+| **Chain id**        | `151`                    |
 | **Dev Fee**         | 10%                      |
-| **AuxPoW Support**  | Yes (from block `42,000`)|
+| **AuxPoW Support**  | Yes (from block `30,000`)|
 
 ---
 
@@ -54,7 +54,7 @@
 
 KitehCoin supports **merged mining** with other Scrypt-based coins.
 
-- AuxPoW starts at block `42,000`.
+- AuxPoW starts at block `30,000`.
 - Benefit from mining multiple coins at once using compatible mining software and pools.
 
 ---
