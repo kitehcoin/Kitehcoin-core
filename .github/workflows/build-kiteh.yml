@@ -57,7 +57,7 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-       OS: [ 'windows', 'linux', 'osx', 'arm32v7', 'aarch64' ]
+       OS: [ 'windows', 'linux' ]
 
     steps:
     - if: ${{ needs.check-jobs.outputs.should_skip != 'true' }}
