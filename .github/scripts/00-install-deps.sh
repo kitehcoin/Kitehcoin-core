@@ -18,6 +18,7 @@ if [[ ${OS} == "windows" ]]; then
     apt-get install -y \
     automake \
     autoconf \
+    autoconf-archive \
     autotools-dev \
     bsdmainutils \
     build-essential \
@@ -43,6 +44,7 @@ elif [[ ${OS} == "osx" ]]; then
     apt -y install \
     autoconf \
     automake \
+    autoconf-archive \
     awscli \
     bsdmainutils \
     ca-certificates \
@@ -75,6 +77,7 @@ elif [[ ${OS} == "linux" || ${OS} == "linux-disable-wallet" || ${OS} == "aarch64
     apt -y install \
     apt-file \
     autoconf \
+    autoconf-archive \
     automake \
     autotools-dev \
     binutils-aarch64-linux-gnu \
@@ -104,6 +107,7 @@ elif [[ ${OS} == "linux" || ${OS} == "linux-disable-wallet" || ${OS} == "aarch64
 elif [[ ${OS} == "arm32v7" || ${OS} == "arm32v7-disable-wallet" ]]; then
     apt -y install \
     autoconf \
+    autoconf-archive \
     automake \
     binutils-aarch64-linux-gnu \
     binutils-arm-linux-gnueabihf \
