@@ -34,9 +34,9 @@ echo "GITHUB_BASE_REF: ${GITHUB_BASE_REF}"
 echo "----------------------------------------"
 
 if [[ ${GITHUB_BASE_REF} =~ "release" ]]; then
-    DISTNAME="Kitehcoin-${VERSION}"
+    DISTNAME="Kitehcoin${VERSION}"
 else
-    DISTNAME="Kitehcoin-${VERSION}-${SHORTHASH}"
+    DISTNAME="Kitehcoin${VERSION}-${SHORTHASH}"
 fi
 
 echo "----------------------------------------"
