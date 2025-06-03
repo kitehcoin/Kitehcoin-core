@@ -4,7 +4,6 @@
 
 <h1 align="center">KitehCoin (KITEH)</h1>
 <p align="center">
-  
   <a href="https://kitehcoin.org">🌐 Website</a> • 
   <a href="https://mining.kitehblocks.com/">⛏️ Pool</a> • 
   <a href="https://github.com/kitehcoin">📁 GitHub</a>
