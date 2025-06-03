@@ -19,16 +19,17 @@
 
 ## 🔧 Technical Specifications
 
-| Property            | Value                    |
-|---------------------|--------------------------|
-| **Ticker**          | `KITEH`                  |
-| **Algorithm**       | Scrypt                   |
-| **Max Supply**      | Unlimited                |
-| **Block Time**      | 1 Minute                 |
-| **RPC Port**        | `17162`                  |
-| **P2P Port**        | `15034`                  |
-| **Chain id**        | `151`                    |
-| **AuxPoW Support**  | Yes (from block `30,000`)|
+| Property             | Value                    |
+|----------------------|--------------------------|
+| **Ticker**           | `KITEH`                  |
+| **Algorithm**        | Scrypt                   |
+| **Max Supply**       | Unlimited                |
+| **Block Time**       | 1 Minute                 |
+| **RPC Port**         | `17162`                  |
+| **P2P Port**         | `15034`                  |
+| **Chain id**         | `151`                    |
+| **Coinbase Maturity**| 240 block                |
+| **AuxPoW Support**   | Yes (from block `30,000`)|
 
 ---
 
