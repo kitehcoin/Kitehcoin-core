@@ -4,7 +4,6 @@
 
 <h1 align="center">KitehCoin (KITEH)</h1>
 <p align="center">
-  A fun, fast, and infinitely mineable cryptocurrency powered by Scrypt.<br>
   <a href="https://kitehcoin.org">🌐 Website</a> • 
   <a href="https://mining.kitehblocks.com/">⛏️ Pool</a> • 
   <a href="https://github.com/kitehcoin">📁 GitHub</a>
@@ -29,7 +28,6 @@
 | **RPC Port**        | `17162`                  |
 | **P2P Port**        | `15034`                  |
 | **Chain id**        | `151`                    |
-| **Dev Fee**         | 10%                      |
 | **AuxPoW Support**  | Yes (from block `30,000`)|
 
 ---
@@ -64,7 +62,10 @@ KitehCoin supports **merged mining** with other Scrypt-based coins.
 
 - 🔗 [Official Website](https://kitehcoin.org)
 - 💾 [GitHub Repositories](https://github.com/kitehcoin)
-- 📄 [Whitepaper (Coming Soon!)]()
+- 💾 [Discord](https://discord.gg/KUVzvTPpSG)
+- 💾 [Telegram](https://t.me/kitehcoin)
+- 💾 [Twitter/X](https://x.com/Kitehcoin)
+- 💾 [Reddit](https://www.reddit.com/r/Kitehcoin/)
 
 ---
 
